@@ -8,7 +8,8 @@ public class TestUsuario {
 		Usuario felipe = new Usuario("Doctor", "DoctorFelipe", "paracetamol");
 		
 		//Cambiar la contraseña
-		felipe.setPassword("paracetamol1"); //error
+		felipe.setPassword("takis"); //error
+		System.out.println(felipe.getPassword("DoctorFelie"));
 	}
 
 }
